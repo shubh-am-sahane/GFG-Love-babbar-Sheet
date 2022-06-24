@@ -9,5 +9,11 @@
        }
        
        return s.size();
+       // for returning the elements in union
+       for (auto itr = s.begin(); itr != s.end(); itr++)
+        cout << *itr
+             << " ";
+                     
+}
    
     }
